@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import NavItem from "./nav-item";
+import { UserCircle2, Briefcase, FolderGit2 } from "lucide-react";
 
 const Navigation = () => {
     const [activeSection, setActiveSection] = useState(null);
@@ -30,11 +31,24 @@ const Navigation = () => {
 
     return (
         <div id='navigation' className='flex flex-col py-10 font-medium tracking-widest'>
-            <NavItem active={activeSection === 'about' ? true : false} href='#about' num='01' name="ABOUT"></NavItem>
-            <NavItem active={activeSection === 'experiences' ? true : false} href='#experiences' num='02' name="EXPERIENCES"></NavItem>
-            <NavItem active={activeSection === 'education' ? true : false} href='#education' num='03' name="EDUCATION"></NavItem>
-            <NavItem active={activeSection === 'volunteering' ? true : false} href='#volunteering' num='04' name="VOLUNTEERING"></NavItem>
-            <NavItem active={(activeSection === 'projects') || (activeSection === 'credits') ? true : false} href='#projects' num='05' name="PROJECTS"></NavItem>
+            <NavItem 
+                active={activeSection === 'about'} 
+                href='#about' 
+                icon={<UserCircle2 className="w-6 h-6 transition-transform group-hover:scale-110" />} 
+                name="ABOUT" 
+            />
+            <NavItem 
+                active={activeSection === 'experiences'} 
+                href='#experiences' 
+                icon={<Briefcase className="w-6 h-6 transition-transform group-hover:scale-110" />} 
+                name="EXPERIENCES" 
+            />
+            <NavItem 
+                active={activeSection === 'projects' || activeSection === 'credits'} 
+                href='#projects' 
+                icon={<FolderGit2 className="w-6 h-6 transition-transform group-hover:scale-110" />} 
+                name="PROJECTS" 
+            />
         </div>
     )
 }

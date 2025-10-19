@@ -2,10 +2,16 @@ import React from "react";
 
 function NavItem(props) {
     return (
-        <a href={props.href} className='flex flex-row py-3 items-center group'>
-            <div className={props.active ? 'mr-4 text-on-background transition-all group-hover:text-primary-500' : 'mr-4 text-surface-600 transition-all group-hover:text-primary-500'}>{props.num}</div>
-            <div className={props.active ? 'w-16 h-0.5 bg-on-background mr-4 transition-all group-hover:w-16 group-hover:bg-primary-500' : 'w-8 h-0.5 bg-surface-600 mr-4 transition-all group-hover:w-16 group-hover:bg-primary-500'}/>
-            <div className={props.active ? 'transition-all text-on-background group-hover:text-primary-500' : 'transition-all text-surface-600 group-hover:text-primary-500'}>{props.name}</div>
+        <a href={props.href} className='flex flex-row py-3 items-center group relative'>
+            <div className={`mr-4 ${props.active ? 'text-primary-200' : 'text-surface-600'} transition-all group-hover:text-primary-200`}>
+                {props.icon}
+            </div>
+            <div className='flex flex-col'>
+                <span className={`transition-all ${props.active ? 'text-primary-200' : 'text-surface-600'} group-hover:text-primary-200`}>
+                    {props.name}
+                </span>
+                <span className={`block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 ${props.active ? 'bg-primary-300' : 'bg-primary-300'}`}></span>
+            </div>
         </a>
     )
 }

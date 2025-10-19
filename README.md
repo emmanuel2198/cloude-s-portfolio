@@ -42,7 +42,7 @@ To clone and run this website, you'll need to paste the following steps in your 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/karlgrossmann/two-column-portfolio
+$ git clone https://github.com/emmanuelmweemba/two-column-portfolio
 
 # Go into the repository
 $ cd two-column-portfolio
@@ -83,7 +83,7 @@ This software uses the following open source packages:
 
 ## Support
 
-<a href="https://www.buymeacoffee.com/karlgrossmann" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+Built with ❤️ by Emmanuel Mweemba
 
 ## License
 
