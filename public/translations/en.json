@@ -8,56 +8,56 @@
             "I focus on writing efficient code, creating seamless user experiences, and staying up to date with the latest web technologies."
         ],
         "socials": {
-            "email": "example@mail.com",
-            "linkedin": "https://www.linkedin.com/",
-            "github": "https://github.com/"
+            "email": "emmanuelcloude1@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/emmanuel-mweemba-2a4b62210/",
+            "github": "https://github.com/emmanuel2198"
         }
     },
     "experiences": [
         {
-            "title": "Social Media Manager",
+            "title": "Software Engineer Intern",
             "company": "Gnamma Technologies",
             "href": "",
-            "startDate": "10/2025",
-            "endDate": "CURRENT",
-            "description": " description of my role here.",
-            "logo": "/logos/company1-logo.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
+            "startDate": "10/2023",
+            "endDate": "2/2024",
+            "description": "Developed and optimized backend APIs at Gnamma Technologies using Node.js and Express, ensuring efficient data flow and secure integrations.",
+            "logo": "/logos/gnamm.avif",
+            "skills": ["Node.js", "PostgreSQL", "Express" ]
         },
         {
-            "title": "Position Title",
-            "company": "Company Name",
+            "title": "Frontend Developer",
+            "company": "Code Savanna",
+            "href": "",
+            "startDate": "04/2024",
+            "endDate": "01/2025",
+            "description": "Spearheaded the development of responsive web applications at Code Savanna using Next.js and Tailwind CSS, enhancing user engagement and performance.",
+            "logo": "/logos/logo-main.png",
+            "skills": ["Next.js", "Tailwind CSS", "JavaScript" ]
+        },
+        {
+            "title": "Social Media Manager",
+            "company": "Mwachangu Loans",
+            "href": "",
+            "startDate": "01/2022",
+            "endDate": "12/2022",
+            "description": "I created and managed digital content across multiple platforms to boost brand visability and engagemeents,also developed marketing campaigns and tracked perfomance analytics.",
+            "logo": "/logos/mwachangu.png",
+            "skills": ["Content Creation", "Digital Marketing", "Analytics"]
+        },
+        {
+            "title": "Speaker Manager",
+            "company": "Wiana Events",
             "href": "",
             "startDate": "01/2025",
-            "endDate": "09/2025",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/company2-logo.png",
-            "skills": ["Skill 1", "Skill 2"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2024",
-            "endDate": "12/2025",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/company3-logo.png",
-            "skills": ["Skill 1"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2025",
-            "endDate": "12/2025",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/company4-logo.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
+            "endDate": "06/2025",
+            "description": "As a Speaker Manager, I coordinated and managed event speakers ,handling communication and scheduling ,to ensure smooth event execution and professional presentation.",
+            "logo": "/logos/wiana.svg",
+            "skills": ["Team Management", "Organisation", "Public Relations"]
         }
     ],
     "projects": [
         {
-            "name": "cloude's BB",
+            "name": "cloude's Budget Bites",
             "framework": "javascript",
             "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
             "href": "https://github.com/emmanuelmweemba/two-column-portfolio",

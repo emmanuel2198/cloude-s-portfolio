@@ -5,7 +5,7 @@ function ExperienceItem(props) {
     return (
         <div className="group flex flex-row mb-4 p-5 transition-all hover:bg-surface-200/10 rounded-lg">
             <div className="basis-1/4 mr-2">
-                <Image src={props.logo} alt="Company Logo" width={70} height={70} className='object-contain object-top pt-2' />
+                <Image src={props.logo} alt="Company Logo" width={90} height={90} className='object-contain object-center w-full h-auto max-h-[72px]' />
             </div>
             <div className='basis-3/4'>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='font-medium text-primary-500 hover:text-primary-200 transition-all'>{props.title} | {props.company} </a>
